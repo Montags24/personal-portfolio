@@ -1,0 +1,162 @@
+body {
+    background-color: #0a192f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navbar */
+.navbar{
+    font-size: 15px;
+}
+
+.fa-github, .fa-linkedin, .fa-file {
+    color: rgb(162, 166, 168);
+    margin: 0px 20px 0px;
+}
+
+.fa-github:hover, .fa-linkedin:hover, .fa-file:hover {
+    color: #fff;
+}
+
+.nav-link {
+    margin: 0px 10px 0px 10px;
+}
+
+/* Home page  */
+
+#home-page{
+    margin: 200px 0px 350px;
+}
+
+h5 {
+    color: rgb(162, 166, 168);
+}
+
+#home-name {
+    color: rgb(204, 214, 246);
+    font-size: 100px;
+}
+
+#home-about {
+    color: rgb(136, 146, 176);
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* About Me */
+
+.about-section {
+    margin-bottom: 200px;
+}
+
+.source-code-text{
+    font-family: 'Source Code Pro', monospace;
+}
+
+#about-me, #experience, #projects {
+    color: rgb(204, 214, 246);
+}
+
+.fa-html5, .fa-css3-alt, .fa-python, .fa-js, .fa-git, .sql {
+    margin: 20px;
+}
+
+.sql {
+    font-size:40px;
+}
+
+.fa-html5:hover, .fa-css3-alt:hover, .fa-python:hover, .fa-js:hover, .fa-git:hover, .sql:hover{
+    color: #fff; 
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: rgb(162, 166, 168);
+    border: 0;
+    opacity: 0.25;
+  }
+
+ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.profile-image{
+    height: 300px;
+    border-radius: 10%;
+}
+
+/* Where I've worked */
+
+.accordion-button{
+    background-color: #0a192f;
+    color:rgb(204, 214, 246);
+    border-width: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0a192f;
+    color:rgb(204, 214, 246);
+}
+
+.accordion-body, .accordion-header {
+    background-color: #0a192f;
+}
+
+.accordion-button:after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.army-photo, .army-2s-img {
+    width:350px;
+    border-radius: 10%;
+}
+
+/* Projects */
+.card{
+    background-color: #0a192f;
+    border-color: #fff;
+}
+
+.fa-code {
+    color:rgb(162, 166, 168);
+}
+
+.fa-code:hover {
+    color:#fff;
+}
+
+.project-img {
+    height: 100%;
+    width: 240px;
+}
+
+.minor-project {
+    max-width: 300px;
+}
+
+/* Contact form */
+
+#form-title {
+    text-align: center;
+    color:rgb(204, 214, 246);
+    font-weight: bold;
+}
+
+.submit-btn {
+    width: 140px;
+    color: rgb(204, 214, 246);
+    background-color: grey;
+    border-color: grey;
+    margin-bottom: 100px;
+}
+
+.submit-btn:hover{
+    background-color: rgb(0, 140, 255);
+}
+.fa-paper-plane{
+    margin-right: 20px;
+}
