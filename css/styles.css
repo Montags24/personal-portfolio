@@ -5,8 +5,14 @@ body {
 
 
 /* Navbar */
+
 .navbar{
-    font-size: 15px;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler-icon {
+    width: 60px !important;
+    height:60px !important;
 }
 
 .fa-github, .fa-linkedin, .fa-file {
@@ -160,3 +166,32 @@ ul.no-bullets {
 .fa-paper-plane{
     margin-right: 20px;
 }
+
+
+/* small screens */
+@media (max-width: 1000px) {
+    .navbar{
+        font-size: 2.25rem;
+    }
+    #home-name {
+        font-size: 200px;
+    }
+    #home-about {
+        font-size: 70px;
+    }
+    .source-code-text{
+        font-size: 40px;
+    }
+    #home-page{
+        margin: 300px 0px 650px;
+    }
+    .section-title {
+        font-size: 60px;
+    }
+    .about-me-text{
+        font-size:30px;
+    }
+    .profile-image{
+        display: none;
+    }
+  }
